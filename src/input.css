@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: ;
+  src: url(/build/assets/fonts/);
+}
+
+
+
+
+h2 , h1 , p {
+  font-family: ;
+}
+ 
+
+
