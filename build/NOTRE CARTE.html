@@ -1,0 +1,2052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="bg-[#071B33] 2xl:py-5 xl:py-5 md:py-3 py-4 2xl:px-24 lg:px-10 md:px-9 px-5 
+fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
+        <div class="flex justify-center items-center">
+            <!-- Logo Center -->
+            <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png" class="2xl:w-32 xl:w-32 md:w-28 w-24" alt="Logo">
+
+            <!-- Toggle Button Right -->
+            <button id="menu-toggle"
+                class="absolute top-1/2 -translate-y-1/2 xl:right-20 lg:right-14 md:right-9 right-5 2xl:right-80">
+                <div class="2xl:space-y-1.5 lg:space-y-1.5 space-y-1">
+                    <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
+                    <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
+                    <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
+                </div>
+            </button>
+        </div>
+
+        <!-- Fullscreen Overlay Menu -->
+        <div id="menu-overlay"
+            class="fixed inset-0 bg-[#071B33] hidden flex-col items-center text-white z-[9999] overflow-y-auto md:pt-12 md:py-0 py-9">
+
+            <!-- Close Button -->
+            <button id="menu-close"
+                class="fixed 2xl:top-7 md:top-2 top-[1px] xl:right-28 lg:right-12 md:right-9 right-4 2xl:right-36 text-4xl font-bold z-[10000]">&times;</button>
+
+            <!-- Logo in Menu (Top) -->
+            <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png"
+                class="2xl:max-w-48 md:max-w-48 max-w-36 2xl:mb-10 md:mb-20 mb-10 lg:pt-0 md:pt-0 pt-16" alt="Logo">
+
+            <!-- Navigation Links -->
+            <ul class="space-y-5 text-base md:text-2xl font-medium mb-10 text-center">
+                <li class="2xl:pt-10 pt-4 text-[#BEC3C9] text-base"><a href="./index.html">ACCUEIL</a></li>
+                <li class="text-[#BEC3C9] text-base"><a href="./NOTRE CARTE.html">NOTRE CARTE</a></li>
+                <li class="text-[#BEC3C9] text-base"><a href="./contact.html">CONTACT / RESERVATIONS</a></li>
+            </ul>
+
+            <!-- Images -->
+            <div class="flex space-x-3 pt-14 pb-5">
+                <a href="#"><img src="./assets/img/en.png" alt="EN" class="w-5 h-5 object-contain"></a>
+                <a href="#"><img src="./assets/img/fr.png" alt="FR" class="w-5 h-5 object-contain"></a>
+            </div>
+
+            <!-- Text -->
+            <p class="text-center  2xl:text-xl md:text-xl text-sm font-extralight pb-5">
+                Restez connecté
+            </p>
+
+            <!-- Buttons / Social Icons -->
+            <div class="flex 2xl:gap-5 gap-4 2xl:mb-10 mb-12">
+                <a href="https://instagram.com" target="_blank"
+                    class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
+                    <i class="fab fa-instagram text-[#404D5C] 2xl:text-base text-sm"></i>
+                </a>
+
+                <a href="https://facebook.com" target="_blank"
+                    class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
+                    <i class="fab fa-facebook-f text-[#404D5C] 2xl:text-base text-sm"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar  -->
+
+    <!-- hero img   -->
+    <section style="background-image: url(./assets/img/second\ page\ hero\ section.png);"
+        class="bg-cover bg-no-repeat w-full 2xl:h-[387px] lg:h-[410px] md-h-[400px] h-[344px] relative bg-center">
+    </section>
+    <!-- end hero img  -->
+
+    <!-- Notre carte  -->
+    <section>
+        <div class="absolute inset-0 top-52 text-center">
+            <div>
+                <h1
+                    class="2xl:text-[56px] xl:text-[56px] lg:text-5xl md:text-5xl text-[34px] text-white font-thin 2xl:leading-[67px] xl:leading-[67px] lg:leading-[57px] md:leading-[56px] leading-9">
+                    Notre carte</span>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- end section  -->
+
+<!-- Cocktails Signature  -->
+    <section
+        class=" xl:px-16 lg:px-10 md:px-9 px-4 2xl:py-24 xl:py-14 lg:py-24 md:py-16 py-9 bg-white text-[#121212] font-sans">
+        <div
+            class="max-w-[1300px] mx-auto xl:grid xl:grid-cols-2 grid grid-cols-1 2xl:gap-24 xl:gap-28 lg:gap-16 md:gap-14 gap-8">
+            <div>
+                <div class="flex justify-between items-center border-b border-gray-300 pb-2 2xl:mb-6 md:mb-5 mb-0">
+                    <h2
+                        class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-6 font-normal">
+                        Cocktails Signature</h2>
+                    <p class="2xl:text-2xl md:text-2xl text-lg 2xl:leading-9 md:leading-8 leading-6 font-normal">18
+                        CHF</p>
+                </div>
+
+                <div class="space-y-7 text-base leading-relaxed 2xl:pt-7 md:pt-0 pt-5">
+                    <div>
+                        <p class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5">
+                            Aruba</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Rhum
+                            Bacardi blanc, citron vert, vanille, liqueur
+                            de noisette, ananas, tonka.</p>
+                    </div>
+
+                    <div class="">
+                        <p class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5">
+                            Stromboli</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Rhum
+                            Santa Teresa, citron vert, vanille, ananas,
+                            cannelle.</p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <div class="flex justify-between">
+                                <p
+                                    class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5 ">
+                                    Stromboli flambé</p>
+                                <p class=" 2xl:text-lg md:text-lg text-sm leading-5 ">24 CHF</p>
+                            </div>
+                            <p
+                                class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                                Rhum
+                                Santa Teresa, fruit de la passion flambé
+                                à l'absinthe, citron vert, vanille, ananas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5 ">São
+                            Tomé</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Vodka 42
+                            Below, framboise, liqueur de noisette,
+                            vanille, citron vert, ananas, chocolat.</p>
+                    </div>
+
+                    <div>
+                        <p class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5 ">
+                            Socotra</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Gin
+                            Oxley, Liqueur st germain, Citron vert,
+                            Concombre, Pomme, Sucre brun.</p>
+                    </div>
+
+                    <div>
+                        <p class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5 ">
+                            Langkawi</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Rhum
+                            Bacardi spiced, gingembre, citron vert, jus
+                            de pomme, poudre de cannelle.</p>
+                    </div>
+
+                    <div>
+                        <p class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5">
+                            Cozumel</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Mezcal,
+                            crème de cassis, citron vert, ginger
+                            beer, angostura.</p>
+                    </div>
+
+                    <div>
+                        <p class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5 ">
+                            Dursey</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Whisky
+                            Dewar’s 12 ans infusé à la cannelle,
+                            citron, jus de pomme, sirop de cannelle.</p>
+                    </div>
+
+                    <div>
+                        <p class="font-light 2xl:text-xl md:text-xl text-base md:leading-5 leading-4 2xl:leading-5 ">
+                            Hainan</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Mezcal,
+                            liqueur de litchi, ananas, citron vert,
+                            mangue.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div>
+                <div class="flex justify-between items-center border-b border-gray-300 pb-2 mb-6 ">
+                    <h2
+                        class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-6 font-normal">
+                        Cocktails Classique</h2>
+                    <p
+                        class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-6 font-normal">17
+                        CHF</p>
+                </div>
+
+                <div class="space-y-7 text-base leading-relaxed 2xl:pt-7 pt-0">
+                    <div>
+                        <p
+                            class="font-light 2xl:text-xl lg:text-xl md:text-xl text-base md:leading-5 lg:leading-5 leading-4 2xl:leading-5">
+                            Mojito</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Un mojito
+                            classique avec du Bacardi Carta Blanca.
+                        </p>
+                    </div>
+
+                    <div>
+                        <p
+                            class="font-light 2xl:text-xl lg:text-xl md:text-xl text-base md:leading-5 lg:leading-5 leading-4 2xl:leading-5">
+                            Caipirinha /
+                            Caipiroska</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Avec
+                            cachaça Leblon / avec vodka 42Below.</p>
+                    </div>
+
+                    <div>
+                        <p
+                            class="font-light 2xl:text-xl lg:text-xl md:text-xl text-base md:leading-5 lg:leading-5 leading-4 2xl:leading-5">
+                            Moscow /
+                            London / Carabean / Mexican Mule</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            42Below /
+                            Bombay Sapphire / Bacardi Spiced /
+                            Cazadores, ginger beer, citron vert, angostura.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <div class="flex justify-between">
+                                <p
+                                    class="font-light 2xl:text-xl lg:text-xl md:text-xl text-base md:leading-5 lg:leading-5 leading-4 2xl:leading-5">
+                                    Margarita (Spicy)</p>
+                                <p class="2xl:text-lg text-sm">18 CHF</p>
+                            </div>
+                            <p
+                                class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                                Tequila Cazadores, sucre, citron vert,
+                                cointreau (piment).</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p
+                            class="font-light 2xl:text-xl lg:text-xl md:text-xl text-base md:leading-5 lg:leading-5 leading-4 2xl:leading-5">
+                            Negroni</p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Bombay
+                            Sapphire, Martini Bitter et Martini
+                            Riserva Rubino.</p>
+                    </div>
+
+                    <div>
+                        <p
+                            class="font-light 2xl:text-xl lg:text-xl md:text-xl text-base md:leading-5 lg:leading-5 leading-4 2xl:leading-5 ">
+                            Old fashioned
+                        </p>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-7 pt-2">
+                            Rum Santa
+                            Teresa 1796 ou bourbon, sucre,
+                            angostura, zeste orange.</p>
+                    </div>
+
+                    <div>
+                        <p
+                            class="font-light 2xl:text-xl lg:text-xl md:text-xl text-base md:leading-5 lg:leading-5 leading-4 2xl:leading-5 ">
+                            Demandez au barman…</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Les incontournables  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-4">
+            <div class="max-w-[1300px] mx-auto xl:grid xl:grid-cols-2 md:grid grid-cols-1  2xl:gap-12 lg:gap-16 gap-6">
+                <div>
+                    <h2
+                        class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-6 font-normal">
+                        Les incontournables</h2>
+
+                    <div class="2xl:space-y-6 space-y-5">
+                        <div>
+                            <div class="flex justify-between items-center pt-7">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                                    Hugo / Spritz</p>
+                                <div class="flex-1 border-t border-gray-300 mx-4"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">14
+                                    CHF</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">Amaretto/Whisky/Pisco
+                                    Sour</p>
+                                <div class="flex-1 border-t border-gray-300 mx-4"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                                    CHF</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">Vodka
+                                    Red Bull</p>
+                                <div class="flex-1 border-t border-gray-300 mx-4"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                                    CHF</p>
+                            </div>
+                            <p
+                                class="2xl:text-sm lg:text-sm md:text-sm text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-5 pt-5">
+                                Vodka 42Below, & Red Bull</p>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">Bombay
+                                    Sapphire & tonic / Long drinks Classic</p>
+                                <div class="flex-1 border-t border-gray-300 2xl:mx-4 mx-2"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">16
+                                    CHF</p>
+                            </div>
+                            <p
+                                class="2xl:text-sm lg:text-sm md:text-sm text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-5 pt-5">
+                                Vodka 42 below, rum Bacardi 4ans, tequila Cazadores</p>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">Bombay
+                                    Premier Cru / Long drinks Premium</p>
+                                <div class="flex-1 border-t border-gray-300 2xl:mx-4 mx-2"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">19
+                                    CHF</p>
+                            </div>
+                            <p
+                                class="2xl:text-sm lg:text-sm md:text-sm text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight 2xl:pt-5 pt-5">
+                                Vodka Grey Goose, Tequila Patron, Whisky Dewar’s, Santa Teresa
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:pt-0 pt-6">
+                    <h2
+                        class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-6 font-normal mb-6">
+                        Les Shots</h2>
+
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">Shot
+                                    classique</p>
+                                <div class="flex-1 border-t border-gray-300 mx-4"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">7
+                                    CHF</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">Shot
+                                    spécial</p>
+                                <div class="flex-1 border-t border-gray-300 mx-4"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                                    CHF</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">Tequila
+                                    Patròn Silver / Patròn Anejo</p>
+                                <div class="flex-1 border-t border-gray-300 mx-4"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">12
+                                    CHF</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">Patròn
+                                    El Cielo</p>
+                                <div class="flex-1 border-t border-gray-300 mx-4"></div>
+                                <p
+                                    class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">25
+                                    CHF</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Nos bières  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-8 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Nos bières</h2>
+                <div class="flex items-center justify-between 2xl:pt-7 md:pt-7 pt-5">
+                    <p class=" font-semibold whitespace-nowrap">
+                        Bières pression
+                    </p>
+                    <div class="flex-1 border-t  mx-4"></div>
+                    <div class="flex items-center 2xl:gap-11 lg:gap-7 md:gap-6 gap-2  font-medium">
+                        <p class=" font-semibold">25cl.</p>
+                        <div class="2xl:w-16 xl:w-16 lg:w-20 w-10 border-t border-[#DDDDDD]"></div>
+                        <p class=" font-semibold">50cl.</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Super Bock
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div class="flex items-center 2xl:gap-6 gap-2 text-gray-700 font-medium">
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">6
+                            CHF</p>
+                        <div class="2xl:w-24 xl:w-24 lg:w-28 md:w-16 w-10 border-t border-[#DDDDDD]"></div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Gurten
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div class="flex items-center 2xl:gap-6 gap-2 text-gray-700 font-medium">
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">6
+                            CHF</p>
+                        <div class="2xl:w-24 xl:w-24 lg:w-28 md:w-16 w-10 border-t border-[#DDDDDD]"></div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        1664 Blanche
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div class="flex items-center 2xl:gap-6 gap-2 text-gray-700 font-medium">
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">6
+                            CHF</p>
+                        <div class="2xl:w-24 xl:w-24 lg:w-28 md:w-16 w-10 border-t border-[#DDDDDD]"></div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Lovebeer Weissbier
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div class="flex items-center 2xl:gap-6 gap-2 text-gray-700 font-medium">
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">6
+                            CHF</p>
+                        <div class="2xl:w-24 xl:w-24 lg:w-28 md:w-16 w-10 border-t border-[#DDDDDD]"></div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Biere du moment
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div class="flex items-center 2xl:gap-6 gap-2 text-gray-700 font-medium">
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">6
+                            CHF</p>
+                        <div class="2xl:w-24 xl:w-24 lg:w-28 md:w-16 w-10 border-t border-[#DDDDDD]"></div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Brooklyn IPA
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div class="flex items-center 2xl:gap-6 gap-2 text-gray-700 font-medium">
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">6
+                            .5 CHF</p>
+                        <div class="2xl:w-24 xl:w-24 lg:w-28 md:w-16 w-10 border-t border-[#DDDDDD]"></div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Guiness
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div class="flex items-center 2xl:gap-6 gap-2 text-gray-700 font-medium">
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">6.5
+                            CHF</p>
+                        <div class="2xl:w-24 xl:w-24 lg:w-28 md:w-16 w-10 border-t border-[#DDDDDD]"></div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">10
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex justify-end items-center 2xl:gap-6 gap-2 pt-5">
+                    <div class="2xl:w-24 xl:w-24 lg:w-28 md:w-16 w-10 border-t border-[#DDDDDD]"></div>
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">10
+                        CHF</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- Bières bouteilles  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <div class="flex items-center justify-between pt-9">
+                    <p class=" font-semibold whitespace-nowrap">
+                        Bières bouteilles
+                    </p>
+                    <div class="flex-1 border-t  mx-4"></div>
+                    <div>
+                        <p class=" font-semibold">33cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Embuscade IPA
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Moonshine blanche
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Stirling Pale Ale </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Zepp
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Corona
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">10
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Bière du moment
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">10
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Cidre Magners
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">10
+                            CHF</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+ <!-- Léger en alcool  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-base 2xl:leading-9 lg:leading-8 md:leading-8 leading-5 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Léger en alcool</h2>
+
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Apéritifs / Digestifs
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">11
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Nos cocktails création Sans Alcool </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">13
+                            CHF</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Nos whiskys  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-base 2xl:leading-9 lg:leading-8 md:leading-8 leading-5 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Nos whiskys</h2>
+
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Dewar's 12y
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">16
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Aberfeldy 12y </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Royal Brackla 12y
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">23
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Craigellachie 13y</p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">23
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Angel's Envy (premium whiskey)
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">27
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        GlenDronach Parliament 21y </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">37
+                            CHF 4cl</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gin (And Tonic )  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-base 2xl:leading-9 lg:leading-8 md:leading-8 leading-5 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Gin (And Tonic )</h2>
+
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Bombay Sapphire
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">16
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Bramble <br>
+                        Citron Pressé </p>
+
+                </div>
+                <div class="flex items-center justify-between pt-4">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Bombay Premier Cru Mucian Lemon </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-4">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Oxley Gin (47°)</p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">18
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-4">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Premium Gin aux choix
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">19
+                            CHF 4cl</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nos rhums  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-base 2xl:leading-9 lg:leading-8 md:leading-8 leading-5 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Nos rhums</h2>
+
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Bacardi Spiced
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">13
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Bacardi Anejo Cuatro </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">14
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Santa Teresa 1796
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Pyrat Rum XO</p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Zacapa
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">19
+                            CHF 4cl</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Diplomatico</p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">19
+                            CHF 4cl</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Nos vins  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-8 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Nos vins</h2>
+                <div class="flex items-center justify-between 2xl:pt-7 md:pt-7 pt-5">
+                    <p class=" font-semibold whitespace-nowrap">
+                        Blanc
+                    </p>
+                    <div class="flex-1 border-t  mx-4"></div>
+                    <div>
+
+                        <p class=" font-semibold">Verre / bouteille</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Chardonnay AOC Suisse
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF / 55 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Sauvignon Blanc Prestige
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF / 55 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Aigle AOC
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">10
+                            CHF / 68 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Dézaley AOC
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">85
+                            CHF</p>
+                    </div>
+                </div>
+
+                <!-- Rosé  -->
+                <div class="flex items-center justify-between 2xl:pt-7 md:pt-7 pt-5">
+                    <p class=" font-semibold whitespace-nowrap">
+                        Rosé
+                    </p>
+                    <div class="flex-1 border-t  mx-4"></div>
+                    <div>
+
+                        <p class=" font-semibold">Verre / bouteille</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Rosato d’italia
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF / 55 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Maison Sainte Marguerite
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">12
+                            CHF / 72 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Côtes de Provence Rosé
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">12
+                            CHF / 72 CHF</p>
+                    </div>
+                </div>
+
+
+                <!-- Rouge -->
+                <div class="flex items-center justify-between 2xl:pt-7 md:pt-7 pt-5">
+                    <p class=" font-semibold whitespace-nowrap">
+                        Rouge
+                    </p>
+                    <div class="flex-1 border-t  mx-4"></div>
+                    <div>
+
+                        <p class=" font-semibold">Verre / bouteille</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Pinot Noir Suisse, VDP
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF / 55 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Merlot Ticino DOC.
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                            9 CHF / 55 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Nero d'Avola Barrique DOC.
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">12
+                            CHF / 72 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Brunello di Montalcino DOCG.
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">120
+                            CHF</p>
+                    </div>
+                </div>
+
+                <!-- Prosecco -->
+                <div class="flex items-center justify-between 2xl:pt-7 md:pt-7 pt-5">
+                    <p class=" font-semibold whitespace-nowrap">
+                        Prosecco
+                    </p>
+                    <div class="flex-1 border-t  mx-4"></div>
+                    <div>
+
+                        <p class=" font-semibold">Verre / bouteille</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Martini
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">8
+                            CHF / 70 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Franciacorta Brut DOCG.
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">90
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Gold Prosecco Bottega DOC.
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">90
+                            CHF</p>
+                    </div>
+                </div>
+
+
+                <!-- Champagne -->
+                <div class="flex items-center justify-between 2xl:pt-7 md:pt-7 pt-5">
+                    <p class=" font-semibold whitespace-nowrap">
+                        Champagne
+                    </p>
+                    <div class="flex-1 border-t  mx-4"></div>
+                    <div>
+
+                        <p class=" font-semibold">Bouteille</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Moët & Chandon Rosé Imperial.
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">180
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Lallier Blanc de Blancs
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                            210 CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Ruinart Blanc de blancs
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">250
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Dom Pérignon Brut
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">650
+                            CHF</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Boissons chaudes alcoolisées  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-8 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Boissons chaudes alcoolisées</h2>
+                <div class="flex items-center justify-between 2xl:pt-10 md:pt-7 pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Café Chilien
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">7.5
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Vin chaud (selon saison)
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">8
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Grog
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">11
+                            CHF</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Café  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-8 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Café</h2>
+                <div class="flex items-center justify-between 2xl:pt-10 md:pt-7 pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Espresso/café
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">4
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Renversé
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">5
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Latte macchiato <br>
+                        Cappuccino <br>
+                        Café frappé <br> </p>
+
+                </div>
+                <div class="flex items-center justify-between pt-3">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Chocolat chaud
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">5
+                            CHF</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Hot ginger/thés
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">7
+                            CHF</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Boissons non alcoolisées  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-8 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Boissons non alcoolisées</h2>
+                <div class="flex items-center justify-between 2xl:pt-10 md:pt-7 pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight whitespace-nowrap">
+                        Boissons non alcoolisées
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">5
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                        Minérale plate/gazeuse, Coca, Coca light, Ice Tea, El Tony Maté, tonic, ginger beer, Redbull jus
+                        de fruits.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Nos tapas  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-8 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Nos tapas</h2>
+                <div class="flex items-center justify-between 2xl:pt-10 md:pt-7 pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                        Arancinetti
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">15
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Croquettes de riz farcies au choix : viande hachée ou aubergines, avec une sauce tomate parfumée
+                        et de la mozzarella fior di latte.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                        Involtini
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">15
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Rouleaux d'aubergines ou de courgettes grillées, farcis au choix avec mortadelle ou jambon cuit,
+                        accompagnés de provola, avec une option végétarienne aux tomates séchées et à la ricotta.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Assiette de légumes frais grillés (v)
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">19
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Composition de légumes frais grillés, délicatement assaisonnés et marinés, servis avec nos
+                        focaccias maison, des involtini, et trois sauces à choix.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Dégustation de fromages
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">19
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Sélection de fromages suisse, français et italien.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Authentique plateau de charcuterie italienne
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">22
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Sélection de produits du terroir pour les amateurs de saveurs authentiques.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Expérience gourmande
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">31
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Dégustation de fromages, charcuterie italienne, involtini et arancinetti.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Dessert maison du moment
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">9
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        N'hésitez pas à consulter notre équipe pour découvrir notre création du moment.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Supplément sauce : 3 CHF</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                        Supplément charcuterie : 3. CHF</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Nos Foccacias  -->
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <h2
+                    class="2xl:text-2xl lg:text-2xl md:text-2xl text-lg 2xl:leading-9 lg:leading-8 md:leading-8 leading-8 font-normal 2xl:pt-16 xl:pt-14 lg:pt-20 md:pt-14 pt-11">
+                    Nos Foccacias</h2>
+                <div class="flex items-center justify-between 2xl:pt-10 md:pt-7 pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                        Victoria
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">16
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Tomates datterini rouges, Mozzarella di Bufala DOP, origan.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                        Santa Maria Vegana (V)
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Crème d'artichauts, tomates séchées, roquette.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Amerigo
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Tomates datterini jaunes, mortadelle, burrata, pistaches.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Nina
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">18
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Tomates datterini rouges, Grana padano, pesto, bresaola.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Pinta
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Tomates datterini jaunes, gorgonzola, spianata, Nduja, roquette.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Caravelle
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Tomates datterini jaunes, champignons, provolone fumé, pesto, tomates séchées.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Vasco de Gama
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Tomates datterini rouges, Mozzarella di Bufala DOP, roquette, jambon cru.</p>
+
+                </div>
+
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Simplon
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Gruyère, jambon cuit, tomates séchées.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Endeavour Végétarien
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Tomates datterini rouges, aubergines, ricotta.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Mayflower
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Chèvre, miel, poire.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Hermione
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">17
+                            CHF</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Tomates datterini rouges, thon, oignons marinés, tapenade d'olive.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Focaccia Olio e Origano
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">14</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Huile d'olive extra vierge artisanale de Calabre et origan. Accompagnée de trois sauces de votre
+                        choix.</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Focaccia création du moment
+                </p>
+                    <div class="flex-1 border-t border-[#DDDDDD] mx-4"></div>
+                    <div>
+                        <p
+                            class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-4 lg:leading-4 md:leading-6 leading-5 font-extralight">18</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                    <p
+                        class="2xl:text-base lg:text-base md:text-base text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        N'hésitez pas à consulter notre équipe pour découvrir notre création du moment.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="xl:px-16 lg:px-12 md:px-9 px-5">
+            <div class="max-w-[1300px] mx-auto">
+                <div class="flex items-center justify-between 2xl:pt-32 lg:pt-32 md:pt-24 pt-12">
+                    <p
+                        class="2xl:text-base  text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight ">
+                        Provenance de nos viandes : Suisse / France / Italie</p>
+
+                </div>
+                <div class="flex items-center justify-between pt-5">
+                    <p
+                        class="2xl:text-base  text-sm 2xl:leading-8 lg:leading-4 md:leading-6 leading-5 font-extralight">
+                        En cas d'allergies ou de restrictions alimentaires, notre personnel est là pour répondre à vos
+                        besoins, y compris en identifiant et évitant les allergènes.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- imges section  -->
+    <section>
+        <div
+            class="2xl:grid 2xl:grid-cols-6 lg:grid lg:grid-cols-6 grid grid-cols-3 2xl:pt-28 xl:pt-20 lg:pt-24 md:pt-16 pt-9">
+            <div>
+                <img src="./assets/img/frist1.png" alt="">
+            </div>
+            <div>
+                <img src="./assets/img/frist2.png" alt="">
+            </div>
+            <div>
+                <img src="./assets/img/frist3.png" alt="">
+            </div>
+            <div>
+                <img src="./assets/img/frist4.png" alt="">
+            </div>
+            <div>
+                <img src="./assets/img/frist5.png" alt="">
+            </div>
+            <div>
+                <img src="./assets/img/frist6.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section footer  -->
+    <section>
+        <div class="bg-[#111111] text-white overflow-hidden 2xl:px-24 lg:px-10 px-5 mb-12">
+            <div
+                class="max-w-[1300px] mx-auto flex flex-col items-center justify-center 2xl:pt-16 xl:pt-14 lg:pt-24 md:pt-[76px] pt-11">
+
+                <!-- Logo -->
+                <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png" class="2xl:max-w-48 md:max-w-48 max-w-36"
+                    alt="Logo">
+
+                <div class="flex space-x-3 2xl:pt-10 pt-10 pb-5">
+                    <a href="#"><img src="./assets/img/en.png" alt="EN" class="w-5 h-5 object-contain"></a>
+                    <a href="#"><img src="./assets/img/fr.png" alt="FR" class="w-5 h-5 object-contain"></a>
+                </div>
+                <!-- Navigation Links -->
+                <ul
+                    class="flex 2xl:gap-5 md:gap-5 gap-2 items-center text-base md:text-2xl font-medium mb-10 text-center">
+                    <li class="text-[#BEC3C9] 2xl:text-base text-xs"><a href="./index.html">ACCUEIL</a></li>
+                    <div class="2xl:w-1 w-[2px] 2xl:h-3 h-2 bg-[#7A7A7A]">
+                    </div>
+                    <li class="text-[#BEC3C9] 2xl:text-base text-xs"><a href="./NOTRE CARTE.html">NOTRE CARTE</a></li>
+                    <div class="2xl:w-1 w-[2px] 2xl:h-3 h-2 bg-[#7A7A7A]">
+                    </div>
+                    <li class="text-[#BEC3C9] 2xl:text-base text-xs"><a href="./contact.html">CONTACT / RESERVATIONS</a></li>
+                </ul>
+                <!-- Social Buttons -->
+                <div class="flex 2xl:gap-5 gap-4 2xl:mb-10 md:mb-14 mb-5">
+                    <a href="https://instagram.com" target="_blank"
+                        class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
+                        <i class="fab fa-instagram text-[#404D5C] 2xl:text-base text-sm"></i>
+                    </a>
+
+                    <a href="https://facebook.com" target="_blank"
+                        class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
+                        <i class="fab fa-facebook-f text-[#404D5C] 2xl:text-base text-sm"></i>
+                    </a>
+                </div>
+                <div class="py-2">
+                    <img src="./assets/img/Horizontal Divider.png" alt="">
+                </div>
+                <div class="pt-8 xl:pb-7 pb-7 lg:pb-16 md:pb-14">
+                    <p class="2xl:text-xs text-[10px] 2xl:leading-6 leading-4 font-extralight">2023 &copy Oh No Lulu!
+                        Tous les
+                        droits sont réservés.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end section footer  -->
+
+
+    <footer>
+
+        <div id="footerBar" class="fixed bottom-0 left-0 w-full bg-[#07172B] border-t border-[#1E2A3A] flex justify-around items-center
+  text-white z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.3)] transition-all duration-500 ease-in-out">
+
+            <div class="group relative flex items-center justify-center gap-2 py-4 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+                onclick="togglePanel('hours')">
+
+                <img src="./assets/img/clock.png" class="2xl:w-4 w-5" alt="">
+                <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Horaires
+                    d’ouverture</span>
+            </div>
+
+            <div class="group relative flex items-center justify-center gap-2 py-4 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+                onclick="togglePanel('reservation')">
+                <img src="./assets/img/clander.png" class="2xl:w-4 w-5" alt="">
+                <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Effectuer une
+                    réservation</span>
+            </div>
+
+            <div class="group relative flex items-center justify-center gap-2 py-4 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+                onclick="togglePanel('contact')">
+                <img src="./assets/img/report.png" class="2xl:w-4 w-5" alt="">
+                <span
+                    class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Contactez-nous</span>
+            </div>
+
+            <a href="https://wa.me/1234567890" target="_blank"
+                class="group relative flex items-center justify-center gap-2 py-4 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1">
+                <i class="fa-brands fa-whatsapp 2xl:text-xl text-2xl text-[#C1C1C1] 2xl:hidden xl:hidden"></i>
+                <span
+                    class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">WhatsApp</span>
+            </a>
+        </div>
+
+        <div id="infoPanel"
+            class="fixed bottom-0 left-0 w-full bg-[#10233C] text-[#C1C1C1] transition-all duration-500 ease-in-out translate-y-full z-50">
+            <div
+                class="relative flex flex-col justify-center xl:items-center md:items-center items-start h-auto 2xl:h-60 md:h-72 xl:text-center md:text-center text-start px-6 py-8 ">
+
+                <button onclick="closePanel()"
+                    class="absolute 2xl:top-4 top-0 right-6 text-[#C1C1C1] text-[44px] hover:text-white leading-none">×</button>
+
+                <h1 id="panelTitle"
+                    class="2xl:text-3xl md:text-[34px] text-[28px] leading-9 font-light mb-5 text-white"></h1>
+
+                <div id="panelContent"
+                    class="flex flex-col lg:flex-col 2xl:flex-row xl:flex-row justify-center items-center 2xl:items-start xl:items-start gap-8 2xl:gap-10 text-center 2xl:text-left xl:text-left">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- toggle  -->
+    <script>
+        const toggleBtn = document.getElementById("menu-toggle");
+        const overlay = document.getElementById("menu-overlay");
+        const closeBtn = document.getElementById("menu-close");
+
+        toggleBtn.addEventListener("click", () => {
+            overlay.classList.remove("hidden");
+            overlay.classList.add("flex");
+        });
+
+        closeBtn.addEventListener("click", () => {
+            overlay.classList.add("hidden");
+            overlay.classList.remove("flex");
+        });
+    </script>
+
+
+    <!-- footer  -->
+    <script>
+        const panel = document.getElementById('infoPanel');
+        const footer = document.getElementById('footerBar');
+        const panelTitle = document.getElementById('panelTitle');
+        const panelContent = document.getElementById('panelContent');
+        let panelOpen = false;
+        let currentPanel = '';
+
+        function togglePanel(type) {
+            if (panelOpen && currentPanel === type) {
+                closePanel();
+                return;
+            }
+
+            currentPanel = type;
+            panelContent.innerHTML = ''; // clear content first
+
+            if (type === 'hours') {
+                panelTitle.textContent = "Horaires d’ouverture:";
+                panelContent.innerHTML = `
+        <div class="flex flex-col md:flex-row 2xl:flex-row xl:flex-row md:justify-center justify-start items-start xl:items-center gap-5
+         2xl:gap-96 xl:gap-96 lg:gap-80 md:gap-52">
+          <div class="flex flex-col md:items-center items-start xl:items-center">
+            <h2 class="2xl:text-xl md:text-xl text-base font-light text-white">Dimanche - Jeudi</h2>
+            <p class="2xl:text-base text-sm font-extralight text-[#BBBBBB]">16h00 - 2h00</p>
+          </div>
+          <div class="flex flex-col md:items-center items-start xl:items-center">
+            <h2 class="2xl:text-xl md:text-xl text-base font-light text-white">Vendredi - Samedi</h2>
+            <p class="2xl:text-base text-sm font-extralight text-[#BBBBBB]">16h00 - 4h00</p>
+          </div>
+        </div>
+      `;
+            }
+
+            else if (type === 'reservation') {
+                panelTitle.textContent = "Effectuer une réservation :";
+                panelContent.innerHTML = `
+        <div class="flex flex-col lg:flex-row md:flex-row 2xl:flex-row xl:flex-row justify-start items-start xl:items-center gap-5 2xl:gap-96 xl:gap-96 lg:gap-96 md:gap-60">
+          <div class="md:flex-col lg:flex-col flex md:gap-0 gap-4 xl:items-center  md:items-center items-start">
+            <i class="fa-regular fa-envelope 2xl:text-[32px] md:text-4xl text-xl mb-2"></i>
+            <h2 class="2xl:text-xl md:text-xl text-base font-light text-white">En Ligne</h2>
+          </div>
+          <div class="md:flex-col lg:flex-col flex md:gap-0 gap-4 xl:items-center md:items-center items-start">
+            <i class="fa-brands fa-whatsapp 2xl:text-3xl md:text-4xl text-xl mb-2"></i>
+            <h2 class="2xl:text-xl md:text-xl text-base font-light text-white">Sur WhatsApp</h2>
+          </div>
+        </div>
+      `;
+            }
+
+            else if (type === 'contact') {
+                panelTitle.textContent = "Contactez-nous";
+                panelContent.innerHTML = `
+        <div class="flex flex-col lg:flex-row 2xl:flex-row xl:flex-row md:flex-row justify-start items-start xl:items-center gap-5 2xl:gap-96 xl:gap-96 lg:gap-96 md:gap-64">
+          <div class="md:flex-col lg:flex-col flex-row md:gap-0 gap-4 lg:text-center md:text-center text-start items-start xl:items-center md:items-center">
+            <h2 class="2xl:text-xl md:text-xl text-lg font-light text-white">E-mail</h2>
+            <p class="text-sm font-extralight">info@ohnolulu.com</p>
+          </div>
+          <div class="md:flex-col lg:flex-col flex-row md:gap-0 gap-4 lg:text-center md:text-center text-start items-start xl:items-center md:items-center">
+            <h2 class="2xl:text-xl md:text-xl text-lg font-light text-white">Téléphone</h2>
+            <p class="text-sm font-extralight">+41 78 302 54 11</p>
+          </div>
+        </div>
+      `;
+            }
+
+            footer.classList.add('translate-y-full');
+            panel.classList.remove('translate-y-full');
+            panel.classList.add('translate-y-0');
+            panelOpen = true;
+        }
+
+        function closePanel() {
+            panel.classList.remove('translate-y-0');
+            panel.classList.add('translate-y-full');
+            footer.classList.remove('translate-y-full');
+            panelOpen = false;
+        }
+    </script>
+</body>
+
+</html>
