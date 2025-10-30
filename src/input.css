@@ -18,19 +18,24 @@ h2 , h1 , p {
  
 
 
-/* @keyframes dotMove {
-  0% {
-    top: 10%;
+@layer utilities {
+  @keyframes dotFloat {
+    0%, 100% {
+      transform: translate(-50%, -5px); /* thoda neeche (start near line) */
+    }
+    50% {
+      transform: translate(-50%, -55px); /* upar move kare */
+    }
   }
-  50% {
-    top: 90%;
-  }
-  100% {
-    top: 10%;
+
+  .animate-dotFloat {
+    animation: dotFloat 2.6s ease-in-out infinite;
   }
 }
 
-.animate-dotMove {
-  animation: dotMove 2.5s ease-in-out infinite;
-} */
-
+#footerBar > div:not(:last-child),
+#footerBar > a:not(:last-child) {
+  border-right: 1px solid #FFFFFF; /* line ka color */
+  padding-right: 20px; /* thoda spacing right side me */
+   /* thoda gap line ke baad */
+}

@@ -96,7 +96,7 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
     <!-- Où nous trouver, Contactez-nous, Horaires  -->
     <section>
         <div
-            class="bg-[#071B33] 2xl:px-24 xl:px-[72px] lg:px-[51px] md:px-9 px-5 2xl:py-28 xl:py-[86px] lg:py-[102px] md:py-[76px] py-9">
+            class="bg-[#071B33] 2xl:px-24 xl:px-16 lg:px-12 md:px-9 px-5 2xl:py-28 xl:py-[86px] lg:py-[102px] md:py-[76px] py-9">
             <div class="2xl:max-w-[1300px] xl:max-w-[1140px] mr-auto ml-auto">
                 <div class="2xl:grid 2xl:grid-cols-3 md:grid md:grid-cols-3 grid grid-cols-2 2xl:gap-y-10 gap-y-6">
                     <div class="text-[#D7D4DE]">
@@ -178,7 +178,7 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
             <div>
                 <img src="./assets/img/3rdblue line.png" class="w-full 2xl:h-[350px] h-[250px]" alt="">
             </div>
-            <div class="2xl:px-24 lg:px-10 px-5">
+            <div class="2xl:px-24 xl:px-16 lg:px-12 md:px-9 px-5">
                 <div class="flex justify-center ">
                     <div
                         class=" 2xl:w-[1300px] xl:w-[1280px] lg:w-[907px] md:w-[688px] w-80 overflow-hidden absolute top-0">
@@ -197,7 +197,7 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
     <!-- Section Formulaire de Réservation -->
     <section>
         <div
-            class=" text-white 2xl:px-24 xl:px-[72px] lg:px-12 md:px-9 px-5 2xl:py-28 xl:py-[72px] lg:py-[102px] md:py-[76px] py-10">
+            class=" text-white 2xl:px-24 xl:px-16 lg:px-12 md:px-9 px-5 2xl:py-28 xl:py-[72px] lg:py-[102px] md:py-[76px] py-10">
             <div class="max-w-[800px] mx-auto ">
                 <h2
                     class="2xl:text-[44px] md:text-[44px] text-3xl leading-[52px] font-extralight text-center text-black 2xl:mb-11 mb-10">
@@ -281,7 +281,7 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
 
     <!-- section footer  -->
     <section>
-        <div class="bg-[#111111] text-white overflow-hidden 2xl:px-24 lg:px-10 px-5 mb-12">
+        <div class="bg-[#111111] text-white overflow-hidden 2xl:px-24 xl:px-16 lg:px-12 md:px-9 px-5 mb-12">
             <div
                 class="max-w-[1300px] mx-auto flex flex-col items-center justify-center 2xl:pt-16 xl:pt-14 lg:pt-24 md:pt-[76px] pt-11">
 
@@ -333,60 +333,58 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
     </section>
     <!-- end section footer  -->
 
-    <footer>
+  <footer>
 
-        <div id="footerBar" class="fixed bottom-0 left-0 w-full bg-[#07172B] border-t border-[#1E2A3A] flex justify-around items-center
-  text-white z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.3)] transition-all duration-500 ease-in-out">
+    <div id="footerBar" class="fixed bottom-0 left-0 w-full bg-[#07172B] border-t border-[#1E2A3A] flex justify-around items-center
+  text-white z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.3)] transition-all duration-500 grid grid-cols-4 lg:py-0 md:py-0 py-2">
 
-            <div class="group relative flex items-center justify-center gap-2 py-4 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
-                onclick="togglePanel('hours')">
+      <div
+        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+        onclick="togglePanel('hours')">
 
-                <img src="./assets/img/clock.png" class="2xl:w-4 w-5" alt="">
-                <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Horaires
-                    d’ouverture</span>
-            </div>
+        <img src="./assets/img/clock.png" class="2xl:w-4 xl:w-3 md:w-5 w-4" alt="">
+        <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Horaires
+          d’ouverture</span>
+      </div>
 
-            <div class="group relative flex items-center justify-center gap-2 py-4 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
-                onclick="togglePanel('reservation')">
-                <img src="./assets/img/clander.png" class="2xl:w-4 w-5" alt="">
-                <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Effectuer
-                    une
-                    réservation</span>
-            </div>
+      <div
+        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+        onclick="togglePanel('reservation')">
+        <img src="./assets/img/clander.png" class="2xl:w-4 xl:w-3 md:w-5 w-4" alt="">
+        <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Effectuer une
+          réservation</span>
+      </div>
 
-            <div class="group relative flex items-center justify-center gap-2 py-4 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
-                onclick="togglePanel('contact')">
-                <img src="./assets/img/report.png" class="2xl:w-4 w-5" alt="">
-                <span
-                    class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Contactez-nous</span>
-            </div>
+      <div
+        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+        onclick="togglePanel('contact')">
+        <img src="./assets/img/report.png" class="2xl:w-4 xl:w-3 md:w-5 w-4" alt="">
+        <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Contactez-nous</span>
+      </div>
 
-            <a href="https://wa.me/1234567890" target="_blank"
-                class="group relative flex items-center justify-center gap-2 py-4 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1">
-                <i class="fa-brands fa-whatsapp 2xl:text-xl text-2xl text-[#C1C1C1] 2xl:hidden xl:hidden"></i>
-                <span
-                    class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">WhatsApp</span>
-            </a>
+      <a href="https://wa.me/1234567890" target="_blank"
+        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1">
+        <i class="fa-brands fa-whatsapp 2xl:text-sm xl:text-sm md:text-xl text-base text-white 2xl:hidden xl:hidden"></i>
+        <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">WhatsApp</span>
+      </a>
+    </div>
+
+    <div id="infoPanel"
+      class="fixed bottom-0 left-0 w-full bg-[#10233C] text-[#C1C1C1] transition-all duration-500 ease-in-out translate-y-full z-50">
+      <div
+        class="relative flex flex-col justify-center xl:items-center md:items-center items-start h-auto 2xl:h-60 md:h-72 xl:text-center md:text-center text-start px-6 py-8 ">
+
+        <button onclick="closePanel()"
+          class="absolute 2xl:top-4 top-0 right-6 text-[#C1C1C1] text-[44px] hover:text-white leading-none">×</button>
+
+        <h1 id="panelTitle" class="2xl:text-3xl md:text-[34px] text-[28px] leading-9 font-light mb-5 text-white"></h1>
+
+        <div id="panelContent"
+          class="flex flex-col lg:flex-col 2xl:flex-row xl:flex-row justify-center items-center 2xl:items-start xl:items-start gap-8 2xl:gap-10 text-center 2xl:text-left xl:text-left">
         </div>
-
-        <div id="infoPanel"
-            class="fixed bottom-0 left-0 w-full bg-[#10233C] text-[#C1C1C1] transition-all duration-500 ease-in-out translate-y-full z-50">
-            <div
-                class="relative flex flex-col justify-center xl:items-center md:items-center items-start h-auto 2xl:h-60 md:h-72 xl:text-center md:text-center text-start px-6 py-8 ">
-
-                <button onclick="closePanel()"
-                    class="absolute 2xl:top-4 top-0 right-6 text-[#C1C1C1] text-[44px] hover:text-white leading-none">×</button>
-
-                <h1 id="panelTitle"
-                    class="2xl:text-3xl md:text-[34px] text-[28px] leading-9 font-light mb-5 text-white">
-                </h1>
-
-                <div id="panelContent"
-                    class="flex flex-col lg:flex-col 2xl:flex-row xl:flex-row justify-center items-center 2xl:items-start xl:items-start gap-8 2xl:gap-10 text-center 2xl:text-left xl:text-left">
-                </div>
-            </div>
-        </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
 
 
 
