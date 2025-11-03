@@ -10,79 +10,77 @@
 </head>
 
 <body>
-    <!-- navbar  -->
-    <nav class="bg-[#071B33] 2xl:py-5 xl:py-5 md:py-3 py-4 2xl:px-24 lg:px-10 md:px-9 px-5 
+  <!-- navbar  -->
+  <nav class="bg-[#071B33] 2xl:py-5 xl:py-5 md:py-3 py-4 2xl:px-24 lg:px-10 md:px-9 px-5 
 fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
-        <div class="flex justify-center items-center">
-            <!-- Logo Center -->
-            <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png" class="2xl:w-32 xl:w-32 md:w-28 w-24" alt="Logo">
+    <div class="flex justify-center items-center">
+      <!-- Logo Center -->
+      <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png" class="2xl:w-32 xl:w-32 md:w-28 w-24" alt="Logo">
 
-            <!-- Toggle Button Right -->
-            <button id="menu-toggle"
-                class="absolute top-1/2 -translate-y-1/2 xl:right-20 lg:right-14 md:right-9 right-5 2xl:right-80">
-                <div class="2xl:space-y-1.5 lg:space-y-1.5 space-y-1">
-                    <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
-                    <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
-                    <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
-                </div>
-            </button>
+      <!-- Toggle Button Right -->
+      <button id="menu-toggle"
+        class="absolute top-1/2 -translate-y-1/2 xl:right-20 lg:right-14 md:right-9 right-5 2xl:right-80">
+        <div class="2xl:space-y-1.5 lg:space-y-1.5 space-y-1">
+          <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
+          <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
+          <span class="block 2xl:w-7 lg:w-6 w-6 2xl:h-[2px] lg:h-[2px] h-[2px] bg-white"></span>
         </div>
+      </button>
+    </div>
 
-        <!-- Fullscreen Overlay Menu -->
-        <div id="menu-overlay"
-            class="fixed inset-0 bg-[#071B33] hidden flex-col items-center text-white z-[9999] overflow-y-auto md:pt-12 md:py-0 py-9">
+    <!-- Fullscreen Overlay Menu -->
+    <div id="menu-overlay"
+      class="fixed inset-0 bg-[#071B33] hidden flex-col items-center text-white z-[9999] overflow-y-auto md:pt-12 md:py-0 py-9">
 
-            <!-- Close Button -->
-            <button id="menu-close"
-                class="fixed 2xl:top-7 md:top-2 top-[1px] xl:right-28 lg:right-12 md:right-9 right-4 2xl:right-36 text-4xl font-bold z-[10000]">&times;</button>
+      <!-- Close Button -->
+      <button id="menu-close"
+        class="fixed 2xl:top-7 xl:top-10 lg:top-6 md:top-7 top-7 xl:right-20 lg:right-16 md:right-9 right-6 2xl:right-80 text-4xl font-bold z-[10000] text-[#FFFFFF]">&times;</button>
 
-            <!-- Logo in Menu (Top) -->
-            <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png"
-                class="2xl:max-w-48 md:max-w-48 max-w-36 2xl:mb-10 md:mb-20 mb-10 lg:pt-0 md:pt-0 pt-16" alt="Logo">
+      <!-- Logo in Menu (Top) -->
+      <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png"
+        class="2xl:max-w-48 md:max-w-48 max-w-36 2xl:mb-10 md:mb-20 mb-10 lg:pt-0 md:pt-0 pt-16" alt="Logo">
 
-            <!-- Navigation Links -->
-            <ul class="space-y-5 text-base md:text-2xl font-medium mb-10 text-center">
-                <li class="2xl:pt-10 pt-4 text-[#BEC3C9] text-base"><a href="./index.html">ACCUEIL</a></li>
-                <li class="text-[#BEC3C9] text-base"><a href="./NOTRE CARTE.html">NOTRE CARTE</a></li>
-                <li class="text-[#BEC3C9] text-base"><a href="./contact.html">CONTACT / RESERVATIONS</a></li>
-            </ul>
+      <!-- Navigation Links -->
+      <ul class="2xl:space-y-5 space-y-6 text-base md:text-2xl mb-10 text-center font-extralight text-[#FFFFFF]">
+        <li class="2xl:pt-10 md:pt-3 pt-4 text-base"><a href="index.html">ACCUEIL</a></li>
+        <li class=" text-base"><a href="./NOTRE CARTE.html">NOTRE CARTE</a></li>
+        <li class=" text-base"><a href="./contact.html">CONTACT / RESERVATIONS</a></li>
+      </ul>
 
-            <!-- Images -->
-            <div class="flex space-x-3 pt-14 pb-5">
-                <a href="#"><img src="./assets/img/en.png" alt="EN" class="w-5 h-5 object-contain"></a>
-                <a href="#"><img src="./assets/img/fr.png" alt="FR" class="w-5 h-5 object-contain"></a>
-            </div>
+      <!-- Images -->
+      <div class="flex space-x-3 2xl:pt-11 md:pt-7 pt-11 2xl:pb-5 pb-8">
+        <a href="#"><img src="./assets/img/en.png" alt="EN" class="w-5 h-5 object-contain"></a>
+        <a href="#"><img src="./assets/img/fr.png" alt="FR" class="w-5 h-5 object-contain"></a>
+      </div>
 
-            <!-- Text -->
-            <p class="text-center  2xl:text-xl md:text-xl text-sm font-extralight pb-5">
-                Restez connecté
-            </p>
+      <!-- Text -->
+      <p class="text-center 2xl:text-xl md:text-xl text-sm font-extralight 2xl:leading-4 md:leading-6 leading-4 pb-5 text-[#FFFFFF]">
+        Restez connecté
+      </p>
 
-            <!-- Buttons / Social Icons -->
-            <div class="flex 2xl:gap-5 gap-4 2xl:mb-10 mb-12">
-                <a href="https://instagram.com" target="_blank"
-                    class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
-                    <i class="fab fa-instagram text-[#404D5C] 2xl:text-base text-sm"></i>
-                </a>
+      <!-- Buttons / Social Icons -->
+      <div class="flex 2xl:gap-5 gap-4 2xl:mb-12 md:mb-12 mb-9">
+        <a href="https://instagram.com" target="_blank"
+          class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
+          <i class="fab fa-instagram text-[#404D5C] 2xl:text-base text-sm"></i>
+        </a>
 
-                <a href="https://facebook.com" target="_blank"
-                    class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
-                    <i class="fab fa-facebook-f text-[#404D5C] 2xl:text-base text-sm"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
-    <!-- end navbar  -->
+        <a href="https://facebook.com" target="_blank"
+          class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
+          <i class="fab fa-facebook-f text-[#404D5C] 2xl:text-base text-sm"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar  -->
+<div class="2xl:pt-[124px] xl:pt-[123px] pt-[94px]"></div>
 
     <!-- hero img   -->
     <section style="background-image: url(./assets/img/conpagehero.png);"
-        class="bg-cover bg-no-repeat w-full 2xl:h-[387px] lg:h-[410px] md-h-[400px] h-[344px] relative bg-center">
-    </section>
-    <!-- end hero img  -->
+        class="bg-cover bg-no-repeat h-screen bg-center">
+           <!-- Où nous trouver  -->
 
-    <!-- Où nous trouver  -->
-    <section>
-        <div class="absolute inset-0 top-52 text-center">
+        <div class=" text-center 2xl:pt-48 lg:pt-32 md:pt-32 pt-20 2xl:px-12 px-5">
             <div>
                 <h1
                     class="2xl:text-[56px] xl:text-[56px] lg:text-5xl md:text-5xl text-[34px] text-white font-thin 2xl:leading-[67px] xl:leading-[67px] lg:leading-[57px] md:leading-[56px] leading-9">
@@ -90,8 +88,12 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
                 </h1>
             </div>
         </div>
-    </section>
+
     <!-- end section  -->
+    </section>
+    <!-- end hero img  -->
+
+ 
 
     <!-- Où nous trouver, Contactez-nous, Horaires  -->
     <section>
@@ -99,29 +101,29 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
             class="bg-[#071B33] 2xl:px-24 xl:px-16 lg:px-12 md:px-9 px-5 2xl:py-28 xl:py-[86px] lg:py-[102px] md:py-[76px] py-9">
             <div class="2xl:max-w-[1300px] xl:max-w-[1140px] mr-auto ml-auto">
                 <div class="2xl:grid 2xl:grid-cols-3 md:grid md:grid-cols-3 grid grid-cols-2 2xl:gap-y-10 gap-y-6">
-                    <div class="text-[#D7D4DE]">
+                    <div class="text-[#ffffff]">
                         <a href=""></a>
                         <div class="flex justify-center">
-                            <img src="./assets/img/location.png" class="2xl:w-10 md:w-10 w-8" alt="">
+                          <a href=""> <i class="fa-solid fa-location-dot 2xl:text-4xl md:text-4xl text-2xl"></i></a>
                         </div>
                         <div class="pt-4">
-                            <p class="2xl:text-xl md:text-base text-lg 2xl:leading-7 leading-5 font-thin text-center">Où
+                          <a href=""><p class="2xl:text-xl xl:text-xl md:text-base text-lg 2xl:leading-7 leading-5 font-thin text-center">Où
                                 nous trouver
-                            </p>
+                            </p></a>
                         </div>
                         <div class="pt-1">
-                            <p class="2xl:text-sm md:text-sm text-xs 2xl:leading-6 leading-5 font-thin text-center">
+                            <p class="2xl:text-sm md:text-sm text-xs 2xl:leading-6 xl:leading-6 leading-5 font-thin text-center">
                                 Boulevard Georges-Favon 14 <br>
                                 1204 Genève
                             </p>
                         </div>
                     </div>
-                    <div class="text-[#D7D4DE]">
+                    <div class="text-[#ffffff]">
                         <div class="flex justify-center">
-                            <img src="./assets/img/icon.png" class="2xl:w-10 md:w-10 w-8" alt="">
+                            <i class="fa-solid fa-circle-exclamation rotate-180 2xl:text-4xl md:text-4xl text-2xl"></i>
                         </div>
                         <div class="pt-4">
-                            <p class="2xl:text-xl md:text-base text-lg 2xl:leading-7 leading-5 font-thin text-center">
+                            <p class="2xl:text-xl xl:text-xl md:text-base text-lg 2xl:leading-7 leading-5 font-thin text-center">
                                 Contactez-nous
                             </p>
                         </div>
@@ -141,12 +143,12 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
                             </a>
                         </div>
                     </div>
-                    <div class="text-[#D7D4DE] col-span-2 md:col-span-1 md:flex md:flex-col items-center">
+                    <div class="text-[#ffffff] col-span-2 md:col-span-1 md:flex md:flex-col items-center">
                         <div class="flex justify-center">
-                            <img src="./assets/img/c.png" class="2xl:w-10 md:w-10 w-8" alt="">
+                            <i class="fa-regular fa-clock 2xl:text-4xl md:text-4xl text-2xl "></i>
                         </div>
                         <div class="pt-4">
-                            <p class="2xl:text-xl md:text-base text-lg 2xl:leading-7 leading-5 font-thin text-center">
+                            <p class="2xl:text-xl xl:text-xl md:text-base text-lg 2xl:leading-7 leading-5 font-thin text-center">
                                 Horaires</p>
                         </div>
                         <div class="pt-1">
@@ -197,35 +199,35 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
     <!-- Section Formulaire de Réservation -->
     <section>
         <div
-            class=" text-white 2xl:px-24 xl:px-16 lg:px-12 md:px-9 px-5 2xl:py-28 xl:py-[72px] lg:py-[102px] md:py-[76px] py-10">
+            class=" text-white 2xl:px-24 xl:px-[72px] lg:px-12 md:px-9 px-5 2xl:py-24 xl:py-[72px] lg:py-[102px] md:py-[76px] py-9">
             <div class="max-w-[800px] mx-auto ">
                 <h2
-                    class="2xl:text-[44px] md:text-[44px] text-3xl leading-[52px] font-extralight text-center text-black 2xl:mb-11 mb-10">
+                    class="2xl:text-[44px] md:text-[44px] text-3xl 2xl:leading-[52px] md:leading-[52px] leading-9 font-extralight text-center text-black 2xl:mb-10 mb-10">
                     Réservations</h2>
                 <form class="space-y-5">
                     <!-- Nom complet -->
                     <div>
-                        <label class="block 2xl:text-sm md:text-base font-normal text-[#7A7A7A]">Prénom Nom</label>
+                        <label class="block 2xl:text-sm md:text-sm text-sm font-normal text-[#7A7A7A]">Prénom Nom</label>
                         <input type="text" placeholder="Prénom Nom"
-                            class="w-full px-4 py-3 mt-1 rounded-sm bg-[#FAFAFA] border border-[#DDDDDD] 2xl:text-sm md:text-base focus:ring-2 text-[#111111] placeholder-[#DDDDDD]" />
+                            class="w-full px-4 py-3 mt-1 lg:rounded-sm bg-[#FAFAFA] border border-[#DDDDDD] 2xl:text-base md:text-base text-sm focus:ring-2 text-[#111111] placeholder-[#DDDDDD]" />
                     </div>
 
                     <!-- Email -->
                     <div>
-                        <label class="block text-sm font-normal text-[#7A7A7A]">E-mail</label>
+                        <label class="block 2xl:text-sm md:text-sm text-sm font-normal text-[#7A7A7A]">E-mail</label>
                         <input type="email" placeholder="E-mail"
-                            class="w-full px-4 py-3 mt-1 rounded-sm bg-[#FAFAFA] border border-[#DDDDDD]  focus:ring-2 text-[#111111] placeholder-[#DDDDDD]" />
+                            class="w-full px-4 py-3 mt-1 lg:rounded-sm bg-[#FAFAFA] border border-[#DDDDDD] 2xl:text-base md:text-base text-sm focus:ring-2 text-[#111111] placeholder-[#DDDDDD]" />
                     </div>
 
                     <!-- Réservation + Heure -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                         <div>
-                            <label class="block text-sm font-normal text-[#7A7A7A]">Réservation</label>
+                            <label class="block 2xl:text-sm md:text-sm text-sm font-normal text-[#7A7A7A]">Réservation</label>
                             <input type="date"
-                                class="w-full px-4 py-2 mt-1 rounded-sm bg-[#FAFAFA] border border-[#DDDDDD]  focus:ring-2 text-[#111111] placeholder-[#DDDDDD] text-base leading-7 font-extralight" />
+                                class="w-full px-4 py-2 mt-1 lg:rounded-sm bg-[#FAFAFA] border border-[#DDDDDD]  focus:ring-2 text-[#111111] placeholder-[#DDDDDD] 2xl:text-base md:text-base text-sm leading-7 font-extralight" />
                         </div>
                         <div>
-                            <label class="block text-sm font-normal text-[#7A7A7A]">Heure d’arrivée</label>
+                            <label class="block 2xl:text-sm md:text-sm font-normal text-[#7A7A7A]">Heure d’arrivée</label>
                             <input type="time"
                                 class="w-full px-4 py-2 mt-1 rounded-sm bg-[#FAFAFA] border border-[#DDDDDD]  focus:ring-2 text-[#111111] placeholder-[#DDDDDD]" />
                         </div>
@@ -233,25 +235,25 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
 
                     <!-- Objet -->
                     <div>
-                        <label class="block text-sm font-normal text-[#7A7A7A]">Objet de votre demande</label>
+                        <label class="block 2xl:text-sm md:text-sm text-sm font-normal text-[#7A7A7A]">Objet de votre demande</label>
                         <input type="text" placeholder="Objet de votre demande"
-                            class="w-full px-4 py-3 mt-1 rounded-sm bg-[#FAFAFA] border border-[#DDDDDD] text-sm focus:ring-2 text-[#111111] placeholder-[#DDDDDD]" />
+                            class="w-full px-4 py-3 mt-1 lg:rounded-sm bg-[#FAFAFA] border border-[#DDDDDD] 2xl:text-base md:text-base text-sm focus:ring-2 text-[#111111] placeholder-[#DDDDDD]" />
                     </div>
 
                     <!-- Message -->
                     <div>
-                        <label class="block text-sm font-normal text-[#7A7A7A]">Message</label>
+                        <label class="block 2xl:text-sm md:text-sm text-sm font-normal text-[#7A7A7A]">Message</label>
                         <textarea rows="4"
                             placeholder="Pour toute demande urgente, merci de nous contacter via WhatsApp ou par téléphone."
-                            class="w-full px-4 py-3 mt-1 rounded-sm bg-[#FAFAFA] border border-[#DDDDDD] text-sm focus:ring-2 text-black placeholder-[#DDDDDD]"></textarea>
+                            class="w-full px-4 2xl:py-3 lg:py-1 py-3 mt-1 lg:rounded-sm bg-[#FAFAFA] border border-[#DDDDDD] 2xl:text-base md:text-base text-sm focus:ring-2 text-black placeholder-[#DDDDDD]"></textarea>
                     </div>
                     <!-- ✅ reCAPTCHA-style checkbox (tick perfectly inside box) -->
                     <div
-                        class="flex items-center justify-between bg-[#FAFAFA] border border-[#DADCE0]  w-[300px] h-[74px] px-4 shadow relative">
+                        class="flex items-center justify-between bg-[#FAFAFA] border border-[#DADCE0]  w-[300px] h-[74px] px-3 shadow relative">
                         <label class="flex items-center space-x-3 cursor-pointer select-none relative">
                             <div class="relative">
                                 <input type="checkbox"
-                                    class="peer appearance-none 2xl:w-6 w-7 2xl:h-6 h-7 border-t-[2px] border-l-[2px] border-r-[2px] border-b-[1px] 2xl:border-b border-b-2 border-black rounded-sm bg-white cursor-pointer transition-all duration-150 focus:ring-2 focus:ring-[#AECBFA] checked:border-[#4285F4]" />
+                                    class="peer appearance-none 2xl:w-7 w-7 2xl:h-7 h-7 border-2 border-black rounded-sm bg-white cursor-pointer transition-all duration-150 focus:ring-2 focus:ring-[#AECBFA] checked:border-[#4285F4]" />
                                 <svg class="absolute inset-0 m-auto w-4 h-4 text-[#4285F4] hidden peer-checked:block pointer-events-none"
                                     fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
@@ -262,16 +264,16 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
                         <div class="flex flex-col items-center justify-center">
                             <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" class="w-8">
                             <a href="#" class="text-[10px] text-[#757575] leading-none">reCAPTCHA</a>
-                            <div class="flex space-x-[2px] text-[10px] text-[#757575] leading-none">
+                            <div class="flex space-x-[2px] text-[8px] text-[#757575] leading-none">
                                 <a href="#" class="hover:underline">Privacy</a>
                                 <span>-</span>
                                 <a href="#" class="hover:underline">Terms</a>
                             </div>
                         </div>
                     </div>
-                    <div class="pt-2 flex justify-center">
+                    <div class=" flex justify-center">
                         <button type="submit"
-                            class="2xl:px-10 px-11 2xl:py-3 py-3 text-xs border border-black text-black font-semibol transition">ENVOYER</button>
+                            class="2xl:px-10 lg:px-10 px-11 2xl:py-3 lg:py-3 py-3 text-xs border border-black text-[#111111] hover:bg-[#071b33] hover:text-[#ffffff] font-light transition">ENVOYER</button>
                     </div>
                 </form>
             </div>
@@ -279,215 +281,242 @@ fixed top-0 left-0 w-full z-50"> <!-- 👈 fixed navbar -->
     </section>
     <!-- end section  -->
 
-    <!-- section footer  -->
-    <section>
-        <div class="bg-[#111111] text-white overflow-hidden 2xl:px-24 xl:px-16 lg:px-12 md:px-9 px-5 mb-12">
-            <div
-                class="max-w-[1300px] mx-auto flex flex-col items-center justify-center 2xl:pt-16 xl:pt-14 lg:pt-24 md:pt-[76px] pt-11">
-
-                <!-- Logo -->
-                <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png" class="2xl:max-w-48 md:max-w-48 max-w-36"
-                    alt="Logo">
-
-                <div class="flex space-x-3 2xl:pt-10 pt-10 pb-5">
-                    <a href="#"><img src="./assets/img/en.png" alt="EN" class="w-5 h-5 object-contain"></a>
-                    <a href="#"><img src="./assets/img/fr.png" alt="FR" class="w-5 h-5 object-contain"></a>
-                </div>
-                <!-- Navigation Links -->
-                <ul
-                    class="flex 2xl:gap-5 md:gap-5 gap-2 items-center text-base md:text-2xl font-medium mb-10 text-center">
-                    <li class="text-[#BEC3C9] 2xl:text-base text-xs"><a href="./index.html">ACCUEIL</a>
-                    </li>
-                    <div class="2xl:w-1 w-[2px] 2xl:h-3 h-2 bg-[#7A7A7A]">
-                    </div>
-                    <li class="text-[#BEC3C9] 2xl:text-base text-xs"><a href="./NOTRE CARTE.html">NOTRE CARTE</a>
-                    </li>
-                    <div class="2xl:w-1 w-[2px] 2xl:h-3 h-2 bg-[#7A7A7A]">
-                    </div>
-                    <li class="text-[#BEC3C9] 2xl:text-base text-xs"><a href="./contact.html">CONTACT /
-                            RESERVATIONS</a></li>
-                </ul>
-                <!-- Social Buttons -->
-                <div class="flex 2xl:gap-5 gap-4 2xl:mb-10 md:mb-14 mb-5">
-                    <a href="https://instagram.com" target="_blank"
-                        class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
-                        <i class="fab fa-instagram text-[#404D5C] 2xl:text-base text-sm"></i>
-                    </a>
-
-                    <a href="https://facebook.com" target="_blank"
-                        class="flex items-center justify-center 2xl:w-9 w-8 2xl:h-9 h-8 bg-white rounded-full hover:shadow-lg transition">
-                        <i class="fab fa-facebook-f text-[#404D5C] 2xl:text-base text-sm"></i>
-                    </a>
-                </div>
-                <div class="py-2">
-                    <img src="./assets/img/Horizontal Divider.png" alt="">
-                </div>
-                <div class="pt-8 xl:pb-7 pb-7 lg:pb-16 md:pb-14">
-                    <p class="2xl:text-xs text-[10px] 2xl:leading-6 leading-4 font-extralight">
-                        2023 &copy Oh No Lulu! Tous les
-                        droits sont réservés.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- end section footer  -->
-
+  <!-- section footer  -->
   <footer>
+    <div
+      class="bg-[#111111] text-white overflow-hidden 2xl:px-24 xl:px-16 lg:px-12 md:px-9 px-5 2xl:mb-8 mb-10 2xl:pt-[76px] xl:pt-14 lg:pt-24 md:pt-[76px] pt-11 2xl:pb-9 xl:pb-7 pb-7 lg:pb-16 md:pb-9">
+      <div class="max-w-[1300px] mx-auto flex flex-col items-center justify-center ">
 
-    <div id="footerBar" class="fixed bottom-0 left-0 w-full bg-[#07172B] border-t border-[#1E2A3A] flex justify-around items-center
-  text-white z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.3)] transition-all duration-500 grid grid-cols-4 lg:py-0 md:py-0 py-2">
+        <!-- Logo -->
+        <img src="./assets/img/Logo_Ohnolulu-copie5-Copie.png" class="2xl:max-w-48 md:max-w-48 max-w-36" alt="Logo">
+
+        <div class="flex space-x-3 2xl:pt-10 md:pt-14 pt-[54px] 2xl:pb-5 pb-8">
+          <a href="#"><img src="./assets/img/en.png" alt="EN" class="w-5 h-5 object-contain"></a>
+          <a href="#"><img src="./assets/img/fr.png" alt="FR" class="w-5 h-5 object-contain"></a>
+        </div>
+        <!-- Navigation Links -->
+        <ul class="flex 2xl:gap-5 md:gap-5 gap-2 items-center  font-extralight 2xl:mb-10 md:mb-14 mb-10 text-center">
+          <li class="text-[#FFFFFF] 2xl:text-xs text-xs tracking-[2px]"><a href="./index.html">ACCUEIL</a></li>
+          <div class="2xl:w-1 w-[2px] 2xl:h-3 h-2 bg-[#7A7A7A]">
+          </div>
+          <li class="text-[#FFFFFF] 2xl:text-xs text-xs tracking-[2px]"><a href="./NOTRE CARTE.html">NOTRE CARTE</a>
+          </li>
+          <div class="2xl:w-1 w-[2px] 2xl:h-3 h-2 bg-[#7A7A7A]">
+          </div>
+          <li class="text-[#FFFFFF] 2xl:text-xs text-xs tracking-[2px]"><a href="./contact.html">CONTACT /
+              RESERVATIONS</a></li>
+        </ul>
+        <!-- Social Buttons -->
+        <div class="flex 2xl:gap-4 gap-4 2xl:mb-10 md:mb-12 mb-5">
+          <a href="https://instagram.com" target="_blank"
+            class="flex items-center justify-center 2xl:w-8 w-8 2xl:h-8 h-8 bg-white rounded-full hover:shadow-lg transition">
+            <i class="fab fa-instagram text-[#404D5C] 2xl:text-base text-sm"></i>
+          </a>
+
+          <a href="https://facebook.com" target="_blank"
+            class="flex items-center justify-center 2xl:w-8 w-8 2xl:h-8 h-8 bg-white rounded-full hover:shadow-lg transition">
+            <i class="fab fa-facebook-f text-[#404D5C] 2xl:text-base text-sm"></i>
+          </a>
+        </div>
+        <div class="py-2">
+          <img src="./assets/img/Horizontal Divider.png" alt="">
+        </div>
+        <div class="2xl:pt-8 md:pt-7 pt-8 ">
+          <p
+            class="2xl:text-xs xl:text-xs md:text-xs text-[10px] 2xl:leading-6 md:leading-6 leading-4 font-extralight text-[#CCCCCC]">
+            2023 &copy Oh No Lulu! Tous les
+            droits sont réservés.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- end section footer  -->
+
+  <!-- back button  -->
+  <button id="backToTop" 
+  class="hidden fixed 2xl:bottom-6 xl:bottom-6 md:bottom-[14px] bottom-1 2xl:right-6 md:right-6 right-3 bg-[#00000066] text-white 2xl:px-3 md:px-3 px-2 2xl:py-2 md:py-2 py-[3px] rounded-sm shadow-lg 
+         hover:bg-black/80 transition duration-300 z-[999]">
+ <i class="fa-solid fa-chevron-up 2xl:text-xs md:text-xs text-[8px] font-extrabold"></i>
+</button>
+
+  <footer-bar>
+
+    <div id="footerBar"
+      class="fixed bottom-0 left-0 w-full bg-[#07172B] flex justify-around items-center
+  text-white z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.3)] transition-all duration-500 grid grid-cols-4 lg:py-0 md:py-0 py-2 divide-x-[1px] divide-[#FFFFFF59]">
 
       <div
-        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:bg-black"
         onclick="togglePanel('hours')">
 
-        <img src="./assets/img/clock.png" class="2xl:w-4 xl:w-3 md:w-5 w-4" alt="">
-        <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Horaires
+        <i class="fa-regular fa-clock 2xl:text-sm xl:text-sm lg:text-xl md:text-lg text-base"></i>
+        <span class="text-sm leading-5 font-extralight text-[#FFFFFF] text-center xl:block hidden">Horaires
           d’ouverture</span>
       </div>
 
       <div
-        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:bg-black"
         onclick="togglePanel('reservation')">
-        <img src="./assets/img/clander.png" class="2xl:w-4 xl:w-3 md:w-5 w-4" alt="">
-        <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Effectuer une
+        <i class="fa-regular fa-calendar-days 2xl:text-sm xl:text-sm lg:text-xl md:text-lg text-base"></i>
+        <span class="text-sm leading-5 font-extralight text-[#FFFFFF] text-center xl:block hidden">Effectuer une
           réservation</span>
       </div>
 
       <div
-        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1"
+        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:bg-black"
         onclick="togglePanel('contact')">
-        <img src="./assets/img/report.png" class="2xl:w-4 xl:w-3 md:w-5 w-4" alt="">
-        <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">Contactez-nous</span>
+        <i class="fa-solid fa-circle-exclamation rotate-180 2xl:text-sm xl:text-sm lg:text-xl md:text-lg text-base"></i>
+        <span class="text-sm leading-5 font-extralight text-[#FFFFFF] text-center xl:block hidden">Contactez-nous</span>
       </div>
 
       <a href="https://wa.me/1234567890" target="_blank"
-        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:-translate-y-1">
-        <i class="fa-brands fa-whatsapp 2xl:text-sm xl:text-sm md:text-xl text-base text-white 2xl:hidden xl:hidden"></i>
-        <span class="text-sm leading-5 font-extralight text-[#F8F4F8] text-center xl:block hidden">WhatsApp</span>
+        class="group relative flex items-center justify-center gap-4 2xl:py-2 md:py-3 py-2 px-6 cursor-pointer transition-all duration-300 hover:bg-black">
+        <i
+          class="fa-brands fa-whatsapp 2xl:text-sm xl:text-sm md:text-xl text-base text-white 2xl:hidden xl:hidden"></i>
+        <span class="text-sm leading-5 font-extralight text-[#FFFFFF] text-center xl:block hidden">WhatsApp</span>
       </a>
     </div>
 
     <div id="infoPanel"
       class="fixed bottom-0 left-0 w-full bg-[#10233C] text-[#C1C1C1] transition-all duration-500 ease-in-out translate-y-full z-50">
       <div
-        class="relative flex flex-col justify-center xl:items-center md:items-center items-start h-auto 2xl:h-60 md:h-72 xl:text-center md:text-center text-start px-6 py-8 ">
+        class="relative flex flex-col justify-center xl:items-center md:items-center items-start h-[250px] 2xl:h-60 md:h-64 xl:text-center md:text-center text-start 2xl:px-6 md:px-2 px-4 2xl:py-8 md:py-10 py-9">
 
         <button onclick="closePanel()"
-          class="absolute 2xl:top-4 top-0 right-6 text-[#C1C1C1] text-[44px] hover:text-white leading-none">×</button>
+          class="absolute 2xl:top-4 md:top-2 top-0 2xl:right-6 md:right-5 right-4 text-[#C1C1C1] 2xl:text-[44px] text-4xl hover:text-white leading-none">×</button>
 
-        <h1 id="panelTitle" class="2xl:text-3xl md:text-[34px] text-[28px] leading-9 font-light mb-5 text-white"></h1>
+        <h1 id="panelTitle"
+          class="2xl:text-3xl xl:text-3xl md:text-[34px] text-[28px] 2xl:leading-9 xl:leading-9 md:leading-10 leading-8  mb-5 text-white font-extralight ">
+        </h1>
 
         <div id="panelContent"
           class="flex flex-col lg:flex-col 2xl:flex-row xl:flex-row justify-center items-center 2xl:items-start xl:items-start gap-8 2xl:gap-10 text-center 2xl:text-left xl:text-left">
         </div>
       </div>
     </div>
-  </footer>
+  </footer-bar>
+
+
+  <!-- toggle  -->
+  <script>
+    const toggleBtn = document.getElementById("menu-toggle");
+    const overlay = document.getElementById("menu-overlay");
+    const closeBtn = document.getElementById("menu-close");
+
+    toggleBtn.addEventListener("click", () => {
+      overlay.classList.remove("hidden");
+      overlay.classList.add("flex");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      overlay.classList.add("hidden");
+      overlay.classList.remove("flex");
+    });
+  </script>
 
 
 
-    <!-- toggle  -->
-    <script>
-        const toggleBtn = document.getElementById("menu-toggle");
-        const overlay = document.getElementById("menu-overlay");
-        const closeBtn = document.getElementById("menu-close");
+  <!-- footer bar script -->
+  <script>
+    const panel = document.getElementById('infoPanel');
+    const footer = document.getElementById('footerBar');
+    const panelTitle = document.getElementById('panelTitle');
+    const panelContent = document.getElementById('panelContent');
+    let panelOpen = false;
+    let currentPanel = '';
 
-        toggleBtn.addEventListener("click", () => {
-            overlay.classList.remove("hidden");
-            overlay.classList.add("flex");
-        });
+    function togglePanel(type) {
+      if (panelOpen && currentPanel === type) {
+        closePanel();
+        return;
+      }
 
-        closeBtn.addEventListener("click", () => {
-            overlay.classList.add("hidden");
-            overlay.classList.remove("flex");
-        });
-    </script>
+      currentPanel = type;
+      panelContent.innerHTML = ''; // clear content first
 
-
-
-    <!-- footer  -->
-    <script>
-        const panel = document.getElementById('infoPanel');
-        const footer = document.getElementById('footerBar');
-        const panelTitle = document.getElementById('panelTitle');
-        const panelContent = document.getElementById('panelContent');
-        let panelOpen = false;
-        let currentPanel = '';
-
-        function togglePanel(type) {
-            if (panelOpen && currentPanel === type) {
-                closePanel();
-                return;
-            }
-
-            currentPanel = type;
-            panelContent.innerHTML = ''; // clear content first
-
-            if (type === 'hours') {
-                panelTitle.textContent = "Horaires d’ouverture:";
-                panelContent.innerHTML = `
+      if (type === 'hours') {
+        panelTitle.textContent = "Horaires d’ouverture:";
+        panelContent.innerHTML = `
         <div class="flex flex-col md:flex-row 2xl:flex-row xl:flex-row md:justify-center justify-start items-start xl:items-center gap-5
-         2xl:gap-96 xl:gap-96 lg:gap-80 md:gap-52">
+         2xl:gap-96 xl:gap-96 lg:gap-80 md:gap-52 md:py-2">
           <div class="flex flex-col md:items-center items-start xl:items-center">
-            <h2 class="2xl:text-xl md:text-xl text-base font-light text-white">Dimanche - Jeudi</h2>
-            <p class="2xl:text-base text-sm font-extralight text-[#BBBBBB]">16h00 - 2h00</p>
+            <h2 class="2xl:text-xl md:text-xl text-base font-extralight text-white 2xl:pb-0 md:pb-1">Dimanche - Jeudi</h2>
+            <p class="2xl:text-base md:text-base text-sm font-extralight text-[#BBBBBB]">16h00 - 2h00</p>
           </div>
           <div class="flex flex-col md:items-center items-start xl:items-center">
-            <h2 class="2xl:text-xl md:text-xl text-base font-light text-white">Vendredi - Samedi</h2>
-            <p class="2xl:text-base text-sm font-extralight text-[#BBBBBB]">16h00 - 4h00</p>
+            <h2 class="2xl:text-xl md:text-xl text-base font-extralight text-white 2xl:pb-0 pb-1">Vendredi - Samedi</h2>
+            <p class="2xl:text-base md:text-base text-sm font-extralight text-[#BBBBBB]">16h00 - 4h00</p>
           </div>
         </div>
       `;
-            }
+      }
 
-            else if (type === 'reservation') {
-                panelTitle.textContent = "Effectuer une réservation :";
-                panelContent.innerHTML = `
-        <div class="flex flex-col lg:flex-row md:flex-row 2xl:flex-row xl:flex-row justify-start items-start xl:items-center gap-5 2xl:gap-96 xl:gap-96 lg:gap-96 md:gap-60">
-          <div class="md:flex-col lg:flex-col flex md:gap-0 gap-4 xl:items-center  md:items-center items-start">
-            <i class="fa-regular fa-envelope 2xl:text-[32px] md:text-4xl text-xl mb-2"></i>
-            <h2 class="2xl:text-xl md:text-xl text-base font-light text-white">En Ligne</h2>
+      else if (type === 'reservation') {
+        panelTitle.textContent = "Effectuer une réservation :";
+        panelContent.innerHTML = `
+        <div class="flex flex-col lg:flex-row md:flex-row 2xl:flex-row xl:flex-row justify-start items-start xl:items-center gap-5 2xl:gap-96 xl:gap-[432px] lg:gap-96 md:gap-64 md:items-center">
+          <div class="md:flex-col lg:flex-col flex md:gap-0 gap-4 xl:items-center  md:items-center items-start md:py-2">
+            <i class="fa-regular fa-envelope 2xl:text-[32px] md:text-4xl text-xl 2xl:pb-0 md:pb-3"></i>
+            <h2 class="2xl:text-xl md:text-xl text-base font-light text-white ">En Ligne</h2>
           </div>
           <div class="md:flex-col lg:flex-col flex md:gap-0 gap-4 xl:items-center md:items-center items-start">
-            <i class="fa-brands fa-whatsapp 2xl:text-3xl md:text-4xl text-xl mb-2"></i>
+            <i class="fa-brands fa-whatsapp 2xl:text-3xl md:text-4xl text-xl 2xl:pb-0 md:pb-3"></i>
             <h2 class="2xl:text-xl md:text-xl text-base font-light text-white">Sur WhatsApp</h2>
           </div>
         </div>
       `;
-            }
+      }
 
-            else if (type === 'contact') {
-                panelTitle.textContent = "Contactez-nous";
-                panelContent.innerHTML = `
-        <div class="flex flex-col lg:flex-row 2xl:flex-row xl:flex-row md:flex-row justify-start items-start xl:items-center gap-5 2xl:gap-96 xl:gap-96 lg:gap-96 md:gap-64">
-          <div class="md:flex-col lg:flex-col flex-row md:gap-0 gap-4 lg:text-center md:text-center text-start items-start xl:items-center md:items-center">
-            <h2 class="2xl:text-xl md:text-xl text-lg font-light text-white">E-mail</h2>
-            <p class="text-sm font-extralight">info@ohnolulu.com</p>
+      else if (type === 'contact') {
+        panelTitle.textContent = "Contactez-nous";
+        panelContent.innerHTML = `
+        <div class="flex flex-col lg:flex-row 2xl:flex-row xl:flex-row md:flex-row justify-start items-start xl:items-center gap-5 2xl:gap-96 xl:gap-[448px] lg:gap-96 md:gap-64 md:py-2">
+          <div class="md:flex-col lg:flex-col flex-row md:gap-0 gap-4 lg:text-center md:text-center text-start items-start xl:items-center md:items-center ">
+            <h2 class="2xl:text-xl xl:text-xl md:text-base text-lg font-extralight text-white ">E-mail</h2>
+            <p class="2xl:text-sm xl:text-sm md:text-sm text-xs font-thin text-[#fff]">info@ohnolulu.com</p>
           </div>
           <div class="md:flex-col lg:flex-col flex-row md:gap-0 gap-4 lg:text-center md:text-center text-start items-start xl:items-center md:items-center">
-            <h2 class="2xl:text-xl md:text-xl text-lg font-light text-white">Téléphone</h2>
-            <p class="text-sm font-extralight">+41 78 302 54 11</p>
+            <h2 class="2xl:text-xl xl:text-xl md:text-base text-lg font-extralight text-white ">Téléphone</h2>
+            <p class="2xl:text-sm xl:text-sm md:text-sm text-xs font-thin text-[#fff]">+41 78 302 54 11</p>
           </div>
         </div>
       `;
-            }
+      }
 
-            footer.classList.add('translate-y-full');
-            panel.classList.remove('translate-y-full');
-            panel.classList.add('translate-y-0');
-            panelOpen = true;
-        }
+      footer.classList.add('translate-y-full');
+      panel.classList.remove('translate-y-full');
+      panel.classList.add('translate-y-0');
+      panelOpen = true;
+    }
 
-        function closePanel() {
-            panel.classList.remove('translate-y-0');
-            panel.classList.add('translate-y-full');
-            footer.classList.remove('translate-y-full');
-            panelOpen = false;
-        }
-    </script>
+    function closePanel() {
+      panel.classList.remove('translate-y-0');
+      panel.classList.add('translate-y-full');
+      footer.classList.remove('translate-y-full');
+      panelOpen = false;
+    }
+  </script>
 
+
+<!-- back drowp button  -->
+<script>
+  const backToTop = document.getElementById("backToTop");
+
+  // show/hide button on scroll
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      backToTop.classList.remove("hidden");
+    } else {
+      backToTop.classList.add("hidden");
+    }
+  });
+
+  // smooth scroll to top
+  backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
 </body>
 
 </html>

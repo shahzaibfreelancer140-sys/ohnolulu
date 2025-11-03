@@ -1,22 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 
-@font-face {
-  font-family: ;
-  src: url(/build/assets/fonts/);
+
+/* @font-face {
+  font-family: Outfit;
+  src: url(/build/assets/fonts/Outfit-Thin.ttf);
 }
 
 
 
 
 h2 , h1 , p {
-  font-family: ;
+  font-family: Outfit;
 }
- 
+  */
+body{
+  font-family: "Outfit", sans-serif;
 
+}
 
 @layer utilities {
   @keyframes dotFloat {
@@ -33,9 +40,11 @@ h2 , h1 , p {
   }
 }
 
-#footerBar > div:not(:last-child),
-#footerBar > a:not(:last-child) {
-  border-right: 1px solid #FFFFFF; /* line ka color */
-  padding-right: 20px; /* thoda spacing right side me */
-   /* thoda gap line ke baad */
+
+.hover-img {
+  transition: all 0.3s ease-out;
+}
+.hover-img:hover {
+  filter: brightness(0.7);
+  /* transform: scale(1.05); */
 }
